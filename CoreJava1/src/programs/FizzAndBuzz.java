@@ -1,0 +1,41 @@
+package programs;
+
+/*
+ Write a program that prints the numbers in the given range.
+ But for 
+ 1.multiples of 3 print Fizz instead of number.
+ 2.multiples of 5 print Buzz instead of number.
+ 3.if multiples of 3 and 5 then print FizzBuzz
+ 
+ */
+
+public class FizzAndBuzz {
+
+	public static void main(String[] args) {
+		getData(1);
+		getData(3);
+		getData(15);
+		
+
+	}
+
+	public static void getData(int n) {
+		System.out.println("input:  ***"+n);
+		
+		for(int i=1;i<=n;i++) {
+			
+			if(i%3==0 & i%5==0) {
+				System.out.println("FizzBuzz");
+			}else if(i%3==0) {
+				System.out.println("Fizz");
+			}else if(i%5==0) {
+				System.out.println("Buzz");
+			}else {
+				System.out.println(i);
+			}
+			
+			
+		}
+		
+	}
+}

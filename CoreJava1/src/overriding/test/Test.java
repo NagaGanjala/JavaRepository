@@ -1,0 +1,9 @@
+/*
+ * package overriding.test; class Parent{ void eat() {
+ * System.out.println("Idly"); } } class child extends Parent{ private void
+ * eat() { //decreasing the scope , so compile time error.
+ * System.out.println("Idly"); } }
+ * 
+ * public class Test { public static void main(String[] args) { // TODO
+ * Auto-generated method stub } }
+ */
